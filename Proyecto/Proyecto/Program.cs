@@ -56,7 +56,17 @@ namespace Proyecto
 
             while (true)
             {
-                Menu();
+                try
+                {
+                    Menu();
+                }
+                catch
+                {
+                    Console.WriteLine("Error!\n" +
+                        "Returning to Main Menu\n" +
+                        "Press Enter...");
+                    Console.ReadLine();
+                }
             }
         }
          
@@ -203,6 +213,7 @@ namespace Proyecto
                         Console.ReadLine();
                     }
 
+                    SelectPerson();
 
 
                     Address address = new Address(street, number, commune, city, currentUser, yearCon, bedrooms, bathrooms,backyard, pool);
