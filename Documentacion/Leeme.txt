@@ -6,6 +6,6 @@ IMPORTANTE
 El dll tanto para 'APP' como par a'Proyecto' está localizado dentro de
 APP/APP/ClassLibrary1.dll
 
-Entrego esta ocalización en caso que al clonar el proyecto la referencia 
+Entrego esta localizacion en caso que al clonar el proyecto la referencia 
 a este archivo se pierda par apoder restaurarla.
 
