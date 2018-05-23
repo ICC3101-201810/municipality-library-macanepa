@@ -1,0 +1,13 @@
+El error que se presenta dentro del dll es basicamente que 
+en Address existe un atributo Owner que es del tipo Person
+y en Person existe una atrbituo del tipo Address.
+
+Esto es problematica debido a que si uno quisiera crear una
+nueva persona para ello es necesario introducir un Address,
+pero el Address no existe. Por lo tanto antes de crear la Person
+procedemos a crear el Addres. El problema ocurre en que en 
+Address nos pide que introduscamos una persona.
+
+Entonces no podemos crear un Address ni un Person (sin introducir
+el valor de Address = null dentro de Person o bien Owner = null dentro
+de Address para la construccion de sus respectivos objetos).
