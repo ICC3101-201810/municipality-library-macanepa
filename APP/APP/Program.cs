@@ -12,7 +12,11 @@ namespace APP
     {
         static void Main(string[] args)
         {
-            Assembly archivoAssembly = Assembly.LoadFile("C:/Users/Matias/source/repos/municipality-library-macanepa/APP/APP/ClassLibrary1.dll");
+            string dir = Directory.GetCurrentDirectory();
+            string newDir = dir + "\\..\\..\\ClassLibrary1.dll";
+            Console.WriteLine(newDir);
+            //Console.ReadLine();
+            Assembly archivoAssembly = Assembly.LoadFile(newDir);
             foreach (Type type in archivoAssembly.GetTypes())
             {
                 if (type.IsClass) Console.WriteLine("class");

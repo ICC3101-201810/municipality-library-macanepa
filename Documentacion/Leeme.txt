@@ -1,0 +1,11 @@
+El proyecto 'APP' se usa para leer la informacion contenida en el dll
+El proyecto 'Proyecto' esta la implementacion de los metodos del dll.
+
+
+IMPORTANTE
+El dll tanto para 'APP' como par a'Proyecto' está localizado dentro de
+APP/APP/ClassLibrary1.dll
+
+Entrego esta ocalización en caso que al clonar el proyecto la referencia 
+a este archivo se pierda par apoder restaurarla.
+
